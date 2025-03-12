@@ -189,7 +189,6 @@ async function main() {
         }
     })
 
-    // Add event listener to mute the track
     document.querySelector(".volume>img").addEventListener("click", e=>{ 
         if(e.target.src.includes("volume.svg")){
             e.target.src = e.target.src.replace("volume.svg", "mute.svg")
