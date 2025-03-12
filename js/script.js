@@ -34,7 +34,6 @@ async function getSongs(folder) {
  
 
 
-    // Show all the songs in the playlist
     let songUL = document.querySelector(".songList").getElementsByTagName("ul")[0]
     songUL.innerHTML = ""
     for (const song of songs) {
