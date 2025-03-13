@@ -117,7 +117,6 @@ async function main() {
     await getSongs("songs/ncs")
     playMusic(songs[0], true)
 
-    // Display all the albums on the page
     await displayAlbums()
 
 
