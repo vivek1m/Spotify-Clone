@@ -158,7 +158,6 @@ async function main() {
         }
     })
 
-    // Add an event listener to next
     next.addEventListener("click", () => {
         currentSong.pause()
         console.log("Next clicked")
