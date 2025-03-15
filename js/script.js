@@ -149,7 +149,6 @@ async function main() {
         document.querySelector(".left").style.left = "-120%"
     })
 
-    // Add an event listener to previous
     previous.addEventListener("click", () => {
         currentSong.pause()
         console.log("Previous clicked")
