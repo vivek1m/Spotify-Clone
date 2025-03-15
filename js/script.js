@@ -119,7 +119,6 @@ async function main() {
     await displayAlbums()
 
 
-    // Attach an event listener to play, next and previous
     play.addEventListener("click", () => {
         if (currentSong.paused) {
             currentSong.play()
